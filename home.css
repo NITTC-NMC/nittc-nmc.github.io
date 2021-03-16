@@ -1,0 +1,141 @@
+h1 {
+    font-size: 30px;
+}
+
+.top {
+    color: rgb(250, 70, 70);
+    box-shadow: 0 0 100px rgba(0, 0, 0, 0.1) inset;
+    margin-top: 50px;
+    padding: 20px 0;
+    width: 100%;
+    word-break: break-all;
+}
+
+.center {
+    width: 80%;
+    padding: 0 5%;
+}
+
+#timer {
+    float: right;
+    color: rgb(29, 29, 29)
+}
+
+.timer {
+    border: double 3px #333;
+    padding: 5px 10px;
+}
+
+.time , .finish_text{
+    color: rgb(250, 70, 70);
+    font-size: 20px;
+}
+
+.main {
+    margin: 20%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    word-break: normal; 
+    overflow-wrap: break-word;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.overviews, .judge, .claim {
+    margin: 5%;
+    margin-bottom: 100px;
+}
+
+.group_title {
+    border-bottom: 1px dashed  rgba(104, 104, 104, 0.644);
+    overflow-wrap: break-word;
+}
+
+.one_overview {
+    margin-bottom: 50px;
+}
+
+.group_text {
+    margin: 3% 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    display: flex;
+}
+
+.group_one_data {
+    margin-bottom: 3%;
+}
+
+.group_one_data dt {
+    font-size: 18px;
+}
+
+
+.schedule {
+    margin: 3% 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    display: flex;
+}
+
+.schedule .event {
+    width: 50%;
+}
+
+.schedule .dates {
+    width: 50%;
+}
+
+.judge-data {
+    margin: 0;
+}
+
+
+
+@media only screen and (max-width: 480px) {
+    .top {
+        min-height: 250px;
+    }
+    .login , .panf{
+        padding-top: 100px;
+        text-align: center;
+        font-size: 30px;
+    }
+    .center {
+        margin: 5%;
+    }
+
+    .main {
+        margin: 10%;
+        margin-top: 5%;
+    }
+    .dates {
+        display: inline;
+    }
+
+    .schedule .event {
+        width: 95%;
+        display: block;
+        border-bottom: 1px dashed  rgba(104, 104, 104, 0.644);
+        margin: auto;
+    }
+
+    .schedule .date {
+        width: 90%;
+        display: block;
+        margin: auto;
+    }
+}
+
+@media only screen and (min-width: 481px) {
+    .top {
+        min-height: 200px;
+    }
+    .login , .panf{
+        padding-top: 20px;
+        font-size: 30px;
+    }
+}

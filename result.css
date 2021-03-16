@@ -1,0 +1,89 @@
+.main {
+    margin: 20%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.results {
+    margin: 5%;
+}
+
+.group {
+    border-bottom: 1px dashed  rgba(104, 104, 104, 0.644);
+    overflow-wrap: break-word;
+}
+
+.one_result {
+    margin-bottom: 50px;
+}
+
+.awards {
+    margin: 3% 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    border-bottom: 1px dashed  rgba(104, 104, 104, 0.644);
+    display: flex;
+}
+
+.awards .work {
+    overflow-wrap: break-word;
+    width: 70%;
+}
+
+.awards .rank {
+    width: 30%;
+}
+
+
+.judge_awards {
+    margin: 3% 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-bottom: 50px;
+}
+
+.judge_awards .rank {
+    width: 100%;
+    margin-bottom: 0;
+    text-align: center;
+    border-bottom: 1px dashed  rgba(104, 104, 104, 0.644);
+}
+
+.judge_award {
+    width: 100%;
+    overflow-wrap: break-word;
+    text-align: center;
+}
+
+.comment {
+    width: 90%;
+    word-break: break-all;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+dt {
+    border-bottom: 1px dashed  rgba(104, 104, 104, 0.644);
+    margin-bottom: 10px;
+    padding-left: 1%;
+}
+
+
+@media only screen and (max-width: 480px) {
+    .main {
+        margin: 10%;
+        margin-top: 5%;
+    }
+    .judge_awards .rank {
+        width: 100%;
+    }
+
+    .judge_award {
+        width: 100%;
+    }
+
+    dd {
+        margin: 5px;
+    }
+
+}
